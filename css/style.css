@@ -26,6 +26,10 @@ select {
   font-size: 18px;
 }
 
+a {
+  color: rgb(104, 119, 244);
+}
+
 .container {
   max-width: 600px;
   margin: 40px auto;
