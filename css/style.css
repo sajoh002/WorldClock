@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(
+    90.7deg,
+    rgb(255, 253, 218) 1.9%,
+    rgb(246, 210, 255) 39.3%,
+    rgb(152, 222, 254) 64.7%,
+    rgb(251, 255, 210) 100.8%
+  );
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.9);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 48px;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+}
