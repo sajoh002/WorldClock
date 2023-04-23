@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
-    <link rel="stylesheet" href="css/style.css" />
     <title>World Clock</title>
   </head>
   <body>
@@ -16,24 +16,24 @@
         <option value="">Select a city...</option>
         <option value="">London</option>
         <option value="">Paris</option>
-        <option value="">New York</option>
+        <option value="">Los Angeles</option>
         <option value="">Chicago</option>
         <option value="">Seattle</option>
         <option value="">Toyko</option>
       </select>
-      <div class="city">
+      <div class="city" id="nyc">
         <div>
-          <h2>Los Angeles</h2>
-          <div class="date">August 15th, 2022</div>
+          <h2>New York City, NY</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">1:45:15 <small>AM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="madison">
         <div>
-          <h2>Maui</h2>
-          <div class="date">August 15th, 2022</div>
+          <h2>Madison, WI</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">1:45:15 <small>AM</small></div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
